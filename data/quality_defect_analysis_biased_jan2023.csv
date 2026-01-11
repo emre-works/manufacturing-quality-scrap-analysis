@@ -1663,3 +1663,4 @@ date,line,shift,defect_category,produced_qty,defect_qty
 2023-01-31,Line 8,Night,Machine,1097,7
 2023-01-31,Line 8,Night,Stitching,1097,5
 2023-01-31,Line 8,Night,Operator,1097,0
+ 
