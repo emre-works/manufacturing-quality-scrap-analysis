@@ -9,4 +9,4 @@ This project uses manufacturing production quality data including:
 - Defect category
 
 The data structure reflects a typical manufacturing quality reporting scenario.
- 
+  
