@@ -37,3 +37,40 @@ https://public.tableau.com/app/profile/emre.bulut/viz/ManufacturingQualityScrapA
 - Automate monthly quality reporting
 - Integrate AI-generated executive summaries
 - Build an end-to-end reporting workflow using automation tools
+
+## Automation & AI Use Case
+
+### Conceptual Workflow
+
+```
+[Monthly Production Data]
+        |
+        | (CSV export from ERP / SharePoint)
+        v
+[Python Analysis Pipeline]
+    - Load production quality data
+    - Calculate scrap rate by line and shift
+    - Dynamically identify worst-performing line
+    - Identify top defect category
+    - Generate executive summary text
+        |
+        v
+[AI / Copilot Layer]
+    - Refine summary into business-friendly language
+    - Highlight key risks and focus areas
+        |
+        v
+[Power Automate]
+    - Triggered on monthly data refresh
+    - Sends automated email to stakeholders
+    - Includes:
+        • AI-generated executive summary
+        • Link to Tableau dashboard
+        |
+        v
+[Decision Makers]
+    - Review insights
+    - Take corrective quality actions
+```
+
+This architecture demonstrates how manufacturing quality analytics can evolve from static reporting into an automation-ready, AI-enhanced decision support system suitable for enterprise environments.
